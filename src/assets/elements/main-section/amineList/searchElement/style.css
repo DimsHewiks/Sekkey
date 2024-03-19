@@ -1,0 +1,25 @@
+.alert-enter {
+    opacity: 0;
+    height: 0px;
+
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+    height: 320px;
+    transition: height 300ms;
+    background-color: #fff;
+  }
+  .alert-exit {
+    opacity: 1;
+    height: 320px;
+    background-color: #fff;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+    height: 0px;
+    transition: height 300ms;
+    background-color: #fff;
+  
+  }

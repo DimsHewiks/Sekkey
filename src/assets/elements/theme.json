@@ -1,0 +1,15 @@
+[
+    {
+        "HeaderLight": "rgb(240, 146, 91)",
+        "HeaderDark": "rgb(52, 52, 52)",
+
+        "BGColorLight" : "rgb(255, 240, 230)",
+        "BGColorDark" : "#191919",
+        
+        "BGColorElementLight":"white",
+        "BGColorElementDark":"#2d2d2d",
+        
+        "BGColorElementLightText":"rgb(253, 167, 117)",
+        "BGColorElementDarkText":"white"
+    }
+]

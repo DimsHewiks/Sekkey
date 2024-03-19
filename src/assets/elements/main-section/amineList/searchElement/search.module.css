@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.item{
+    width: 100%;
+    min-height: 70px;
+    max-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.unitem{
+    width: 65%;
+    height: 70px;
+    background-color: #fff;
+}.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    outline: none;
+}.input{
+    height: 50%;
+    width: 250px;
+    border: none;
+    border-bottom:solid 1px rgb(240, 146, 91);
+    outline: none;
+}.button{
+    margin-left: 5px;
+    height: 37px;
+    width: 37px;
+    background-image: url(./search.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgb(240, 146, 91);
+}.filt{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+    color: rgb(240, 146, 91);
+    border-bottom: dashed 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.filtWindow{
+    width: 65%;
+    height: 320px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+
+}
+.filtWindowItems{
+
+    width: 25%;
+    height: 100%;
+}
+/*---------------------------1---------------------------*/
+.filtWindowItems1{
+
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}.filtWindowItems1__Title{
+    margin-left: 20px;
+    min-width: 100px;
+    max-width: 170px;
+    height: 30px;
+    background-color: rgb(240, 146, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+}.filtWindowItems1__WindowButton{
+    width: 100%;
+    padding-left: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Quicksand', sans-serif;
+}
+/*---------------------------2---------------------------*/
+.filtWindowItems2{
+
+    width: 100%;
+    height: 160px;
+}
+/*---------------------------3---------------------------*/
+/*---------------------------4---------------------------*/

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
+
+.dark{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+
+.input__Search{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(116, 116, 116);
+    border-radius: 2px;
+}
+
+.input__Search_button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-image: url(./search.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background .2s;
+    margin-left: 5px;
+}
+
+.CenterBlockChild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+.item{
+    width: 100%;
+    height:80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: background-color .2s;
+
+}.item div > p{
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.blockLeftandRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 17.5%;
+
+}.blockLeftandRight__childRight{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}.childRight__ThemeWindow{
+    width: 40px;
+    height: 40px;
+
+    margin-right: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ 
+
+} .childRight__Theme__Child{
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    transition: .2s;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+
+.childRight__LogWindow{
+    width: 50px;
+    height: 50px;
+
+    background-color: #fff;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+.CenterBlock{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}   .listSearch{
+        background: #fff;
+        position: absolute;
+        width: 65%;
+        top: 80px;
+        z-index: 9999;
+        list-style: none;
+        max-height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        transition: height .3s;
+    }.listSearch > ::-webkit-scrollbar{
+        width: 10px;
+    }.listSearch > ::-webkit-scrollbar-track{
+        background: none;
+    }.listSearch > ::-webkit-scrollbar-thumb{
+        background: rgb(253, 167, 117);
+            border: solid 1px none;
+            border-radius: 10px;
+    }
+      .listSearchItem{
+            width: 100%;
+            height: 180px;
+            padding-top: 20px;
+            border-bottom: solid 2px rgb(253, 167, 117);
+            padding-bottom: 5px;
+            font-family: 'Inter', sans-serif;
+            color: rgb(253, 167, 117);
+            transition: background-color .1s;
+            cursor: pointer;
+            
+        }.listSearchItem:hover{
+            background-color: #fbf2ee;
+        }
+           .listSearchItemBlock{
+            width: 100%;
+            height: 100%;
+ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }   .listSearchItemBlock__Image{
+                    height: 100%;
+                    width: 10%;
+ 
+                    background-size: 80%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .listSearchItemBlock__Info{
+                    height: 100%;
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }   .listSearchItemBlock__InfoTitle{
+                        width: 100%;
+                        height: 20%;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                    }   .listSearchItemBlock__InfoTitle > h3{
+                            margin-left: 20px;
+                            margin-bottom: 10px;
+                        }
+                    .listSearchItemBlock__InfoText{
+                        width: 100%;
+                        height: 80%;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                    } .ListSearch__InfoText__characterts{
+                        width: 100%;
+                        height:15%;
+                        
+                    }   .ListSearch__genres{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            padding-left: 20px;
+
+                        }   .ListSearch__genres >h5 {
+                                background: rgb(253, 167, 117);
+                                color: white;
+                                font-size: 10t;
+                                border-radius: 3px;
+                                padding: 5px;
+                                margin-right: 10px;
+
+                            }
+                            .ListSearch__rating{
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                padding-left: 20px;
+                                padding-top: 20px;
+                            }   .ListSearch__rating > h5{
+                                    color: #a4a4a4;
+                            }.ListSearch__rating > h5 > b{
+                                color: #ffffff;
+                                background: rgb(253, 167, 117);
+                                padding: 3px;
+                                border-radius: 2px;
+                            }
+                            .ListSearch__series{
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                padding-left: 20px;
+                                padding-top: 20px;
+                            }.ListSearch__series > h5{
+                                color: #a4a4a4;
+                        }

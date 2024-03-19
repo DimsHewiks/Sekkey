@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
+
+.item{
+    transition: background-color .2s;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    
+}.MainItem{
+    display: block;
+    position: relative;
+    width: 65%;
+    height: 100%;
+
+    
+}.MainItemImg{
+    width: 100%;
+    height:100%;
+    display: flex;
+    overflow: hidden;
+    
+}.ImgBlock{
+
+    min-width: 100%;
+    max-width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+
+.leftbutton{
+ 
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    height: 100%;
+    width: 150px;
+    transition: .5s;
+    
+}.leftbutton:hover{
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,0.577468487394958) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 100%);
+    transition: .5s;
+}   .leftbuttonItem{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }   .leftbuttonItemButton{
+        width: 100%;
+        height:100%;
+        border: none;
+        background-color: none;
+        opacity: 0;
+    }
+
+
+
+
+
+.rightbutton{
+
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    height: 100%;
+    width: 150px;
+}.rightbutton:hover{
+    background: rgb(6,6,6);
+    background: linear-gradient(90deg, rgba(6,6,6,0) 0%, rgba(15,15,15,0.5998774509803921) 100%, rgba(255,255,255,0) 100%, rgba(15,15,15,0) 100%);
+    transition-delay: .7s;
+}
+/*-------------------------------------------------*/
+.caruselTitle{
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    min-width: 15%;
+    text-align: left;
+    width: 30%;
+    user-select: none;
+
+}.caruselTitle >h1{
+    color: white;
+    font-size: 25pt;
+    padding: 0;
+
+}
+.caruselText{
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+    width: 50%;
+    user-select: none;
+    background: rgb(6,6,6);
+background: linear-gradient(90deg, rgba(6,6,6,0.6811099439775911) 0%, rgba(15,15,15,0) 57%, rgba(26,26,26,0) 90%, rgba(0,0,0,0) 100%, rgba(255,255,255,0) 100%);
+
+}.caruselText >h3{
+    color: white;
+    font-size: 12pt;
+}
+.caruselbutton{
+    width: 150px;
+    height: 40px;
+    margin-TOP: 20PX;
+    margin-left: 20PX;
+    background-color: rgb(240, 146, 91);
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12pt;
+    cursor: pointer;
+
+}

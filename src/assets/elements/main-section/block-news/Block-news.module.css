@@ -1,0 +1,10 @@
+.item{
+    max-width: 80%;
+    min-width: 70%;
+    height: 100%;
+    border-right: solid rgb(237, 234, 234);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

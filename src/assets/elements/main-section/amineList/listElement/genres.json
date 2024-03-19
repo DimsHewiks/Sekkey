@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Детектив",
+        "link": "mystery/",
+        "text": "",
+        "img": "",
+        "color": "rgb(97, 57, 116)"
+    },
+    {
+        "name": "Драма",
+        "link": "drama/",
+        "text": "",
+        "img": "",
+        "color": "rgb(43, 24, 120)"
+    },
+    {
+        "name": "История",
+        "link": "historical/",
+        "text": "",
+        "img": "",
+        "color": "rgb(93, 68, 31)"
+    },
+    {
+        "name": "Комедия",
+        "link": "comedy/",
+        "text": "",
+        "img": "",
+        "color": "rgb(39, 117, 128)"
+    },
+    {
+        "name": "Приключения",
+        "link": "adventure/",
+        "text": "",
+        "img": "",
+        "color": "rgb(39, 39, 128)"
+    },
+    {
+        "name": "Игра",
+        "link": "game/",
+        "text": "",
+        "img": "",
+        "color": "rgb(128, 39, 67)"
+    },
+    {
+        "name": "Спорт",
+        "link": "sport/",
+        "text": "",
+        "img": "",
+        "color": "rgb(41, 97, 40)"
+    },
+    {
+        "name": "Триллер",
+        "link": "thriller/",
+        "text": "",
+        "img": "",
+        "color": "rgb(107, 45, 38)"
+    },
+    {
+        "name": "Хоррор",
+        "link": "horror/",
+        "text": "",
+        "img": "",
+        "color": "rgb(167, 57, 44)"
+    },
+    {
+        "name": "Фантастика",
+        "link": "sci-fi/",
+        "text": "",
+        "img": "",
+        "color": "rgb(96, 33, 124)"
+    },
+    {
+        "name": "Фэнтези",
+        "link": "fantasy/",
+        "text": "",
+        "img": "",
+        "color": "rgb(33, 68, 124)"
+    },
+    {
+        "name": "Военное",
+        "link": "military/",
+        "text": "",
+        "img": "",
+        "color": "rgb(33, 124, 80)"
+    },
+    {
+        "name": "Экшен",
+        "link": "action/",
+        "text": "",
+        "img": "",
+        "color": "rgb(129, 150, 42)"
+    },
+    {
+        "name": "Этти",
+        "link": "ecchi/",
+        "text": "",
+        "img": "",
+        "color": "rgb(150, 42, 114)"
+    },
+    {
+        "name": "Школа",
+        "link": "school/",
+        "text": "",
+        "img": "",
+        "color": "rgb(42, 89, 150)"
+    },
+    {
+        "name": "Безумие",
+        "link": "dementia/",
+        "text": "",
+        "img": "",
+        "color": "rgb(213, 36, 16)"
+    },
+    {
+        "name": "Боевые искусства",
+        "link": "martial-arts/",
+        "text": "",
+        "img": "",
+        "color": "rgb(203, 135, 67)"
+    },
+    {
+        "name": "Вампиры",
+        "link": "vampire/",
+        "text": "",
+        "img": "",
+        "color": "rgb(175, 61, 61)"
+    },
+    {
+        "name": "Гарем",
+        "link": "harem/",
+        "text": "",
+        "img": "",
+        "color": "rgb(122, 42, 136)"
+    },
+    {
+        "name": "Демоны",
+        "link": "demons/",
+        "text": "",
+        "img": "",
+        "color": "rgb(136, 75, 42)"
+    },
+    {
+        "name": "Детское",
+        "link": "kids/",
+        "text": "",
+        "img": "",
+        "color": "rgb(60, 164, 39)"
+    },
+    {
+        "name": "Космос",
+        "link": "space",
+        "text": "",
+        "img": "",
+        "color": "rgb(59, 50, 81)"
+    },
+    {
+        "name": "Магия",
+        "link": "magic/",
+        "text": "",
+        "img": "",
+        "color": "rgb(23, 71, 67)"
+    },
+    {
+        "name": "Машины",
+        "link": "cars/",
+        "text": "",
+        "img": "",
+        "color": "rgb(49, 81, 109)"
+    },
+    {
+        "name": "Меха",
+        "link": "mecha/",
+        "text": "",
+        "img": "",
+        "color": "rgb(101, 101, 101)"
+    },
+    {
+        "name": "Музыка",
+        "link": "music/",
+        "text": "",
+        "img": "",
+        "color": "rgb(98, 141, 150)"
+    },
+    {
+        "name": "Пародия",
+        "link": "parody/",
+        "text": "",
+        "img": "",
+        "color": "rgb(77, 167, 93)"
+    },
+    {
+        "name": "Повседневность",
+        "link": "slice-of-life/",
+        "text": "",
+        "img": "",
+        "color": "rgb(149, 167, 77)"
+    },
+    {
+        "name": "Полиция",
+        "link": "police/",
+        "text": "",
+        "img": "",
+        "color": "rgb(100, 77, 167)"
+    },
+    {
+        "name": "Психология",
+        "link": "psychological/",
+        "text": "",
+        "img": "",
+        "color": "rgb(167, 100, 77)"
+    },
+    {
+        "name": "Романтика",
+        "link": "romance/",
+        "text": "",
+        "img": "",
+        "color": "rgb(146, 26, 112)"
+    },
+    {
+        "name": "Самураи",
+        "link": "samurai/",
+        "text": "",
+        "img": "",
+        "color": "rgb(146, 26, 26)"
+    },
+    {
+        "name": "Сверхъестественное",
+        "link": "supernatural/",
+        "text": "",
+        "img": "",
+        "color": "rgb(26, 144, 146)"
+    }
+]

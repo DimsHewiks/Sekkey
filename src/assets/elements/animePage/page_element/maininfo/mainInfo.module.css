@@ -1,0 +1,11 @@
+.Item{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}.ChildItem{
+    width: 65%;
+    height: 100%;
+    border-top: solid 1px rgb(253,167,117);
+ }

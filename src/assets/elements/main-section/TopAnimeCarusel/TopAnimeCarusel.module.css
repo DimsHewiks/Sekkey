@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+.item{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+}   .Cilditem{
+        width: 65%;
+        height: 100%;
+        transition: background-color .2s;
+
+        background-color: white;
+    }   .itemTitle{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            padding-left: 20px;
+            transition: color .2s;
+
+ 
+        }   .itemTitle{
+  
+                font-family: 'Inter', sans-serif;
+                color: rgb(204, 131, 88);
+                font-size: 14pt;
+
+            } .itemTitle > h2{
+                border-left: 5px solid rgb(253, 167, 117);
+                padding-left: 10px;
+            }
+        .itemMainSection{
+            width: 100%;
+            height: 320px;
+            
+        }
+/*--------------------------[scroll]---------------------------*/
+        .itemMainSection > ::-webkit-scrollbar{
+           
+            height: 6px;
+        }.itemMainSection > ::-webkit-scrollbar-track{
+           
+            background: rgb(40, 40, 40);
+            margin-left: 20px;
+            margin-right: 20px;    
+        }.itemMainSection > ::-webkit-scrollbar-thumb{
+           
+            background: rgb(253, 167, 117);
+            border: solid 1px none;
+            border-radius: 10px;
+            
+        }
+/*----------------------[end scroll]---------------------------*/
+
+        .itemMainSection > div{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            overflow-x: auto;
+            scrollbar-color: white white;
+        }   .caruselItem{
+                min-width: 30%;
+                max-width: 30%;
+                margin: 0 20px 0 20px;
+                height: 90%;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                border-radius: 5px;
+                overflow: hidden;
+                transition: .1s;
+                text-decoration: none;
+            }.caruselItem:hover{
+                transform: scale(1.01);
+            }
+               .itemInfo{
+                width: 100%;
+                height: 35%;
+                background: rgb(6,6,6);
+                background: linear-gradient(90deg, rgba(6,6,6,0.8071603641456583) 0%, rgba(0,0,0,0.48503151260504207) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 100%, rgba(255,255,255,0) 100%);
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-around;
+                
+                padding: 20px;
+                
+             }.itemInfoTitle{
+                display: flex;
+                align-items: center;
+                justify-content:flex-start;
+                border-radius: 5px;
+                min-height: 30%;
+                max-height: 80%;
+                font-family: 'Inter', sans-serif;
+                min-width: 60%;
+                max-width: 100%;
+                background: rgb(253,167,117);
+                background: linear-gradient(90deg, rgba(253,167,117,1) 0%, rgba(253,167,117,0.6895133053221288) 30%, rgba(253,167,117,0) 100%);
+                color: white;
+                font-size: 10pt;
+                padding: 5px 5px 5px 10px;
+             }  .itemInfotext{
+                font-family: 'Inter', sans-serif;
+                height: 15%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10pt;
+                color: rgb(255, 255, 255);
+                margin-top: 5px;
+             } .itemInfotextB{
+                padding: 5px;
+                background-color: rgb(253, 167, 117);
+                color: white;
+                border-radius: 5px;
+             }
